@@ -148,7 +148,7 @@ experiences:
           Tecnologías: 
             SSOO Debian y Ubuntu. Python, Bash script.
 certifications:
-      title: Certifications
+      title: Certificaciones
       list:
         - name: LPI 101
           start: 2018
@@ -161,8 +161,7 @@ certifications:
             puedan convertirse en profesionales certificados
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Habilidades y Competencias
     toolset:
       - name: Python
         level: 90%
