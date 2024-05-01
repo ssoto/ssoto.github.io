@@ -50,7 +50,12 @@ sidebar:
 
 career-profile:
     title: Ingeniero de Software
-    summary: 
+    summary: |
+      Ingeniero de software con más de 10 años de experiencia.
+      Experiencia en el desarrollo de software enfocado en la creación de
+      aplicaciones escalables que satisfacen las necesidades del usuario.
+      Actualmente enfocado y aprendiendo sobre proyectos de IA y Machine Learning en
+      el ámbito de NLP usnado LLMs.
 education:
     title: Estudios
     info:
