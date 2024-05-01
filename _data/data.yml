@@ -68,7 +68,7 @@ experiences:
     title: Experincia laboral
     info:
       - role: Proyectos con modelos generativos
-        time: Dic'22 - Actualidad
+        time: Feb'23 - Actualidad
         company: Sngular People
         details: |
           Entre las responsabilidades están el liderazgo técnico del equipo, diseño y 
@@ -78,9 +78,10 @@ experiences:
             - Langchain y Langsmith
             - OpenAI
             - Google Vertex
+            - Google Cloud Plataform
             - Python
       - role: Software Engineer Proyecto FinTech
-        time: Marzo'22 - Marzo'23
+        time: Feb'22 - Enero'23
         company: Sngular People
         details: |
           Desarrollo de plataforma de Big Data de gestión de reglas en operaciones 
