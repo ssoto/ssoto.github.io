@@ -15,7 +15,7 @@ sidebar:
     timezone: Madrid UTC/GMT +2 hours
     citizenship: Español
     website: blog.sergiosotonunez.com #do not add http://
-    linkedin: sergiosotnunez
+    linkedin: sergiosotonunez
     # xing: alandoe
     github: ssoto
     telegram: # add your nickname without '@' sign
@@ -25,7 +25,7 @@ sidebar:
     stack-overflow: 423906/ssoto # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://drive.google.com/file/d/1ZvT5IxRnvqvDV0F81c0OllmXg7rRvTgH/view
+    pdf: https://drive.google.com/file/d/1ZvT5IxRnvqvDV0F81c0OllmXg7rRvTgH/view?usp=sharing
 
     languages:
       title: Languages
@@ -45,7 +45,7 @@ sidebar:
         - item: Mis perritos 🐶
           link:
 
-        - item: leeer
+        - item: Leer
           link:
 
 career-profile:
