@@ -1,0 +1,180 @@
+sidebar:
+  position: right
+  about: True
+  education: True
+
+  # Profile information
+  name: Sergio Soto Núñez
+  tagline: Software Engineer
+  avatar: profile.png
+  language_switcher_title: Language
+
+  # Sidebar links
+  email: sergiosotonunez@gmail.com
+  # phone: +34 661 273 896
+  timezone: Madrid UTC/GMT +2 hours
+  citizenship: Spanish
+  website: blog.sergiosotonunez.com
+  linkedin: sergiosotonunez
+  github: ssoto
+  telegram:
+  stack-overflow: 423906/ssoto
+  pdf: https://drive.google.com/file/d/1ZvT5IxRnvqvDV0F81c0OllmXg7rRvTgH/view?usp=sharing
+
+  languages:
+    title: Languages
+    info:
+      - idiom: Spanish
+        level: Native
+      - idiom: English
+        level: Professional working proficiency (Aptis B2 Certificate)
+
+  interests:
+    title: Interests
+    info:
+      - item: Cooking
+        link:
+      - item: My dogs 🐶
+        link:
+      - item: Reading
+        link:
+
+career-profile:
+  title: Software Engineer
+  summary: |
+    Software engineer with more than 10 years of experience.
+    Skilled at designing and building scalable applications that address users' needs.
+    Currently focused on AI and Machine Learning projects, applying LLMs to NLP and conversational assistants.
+
+education:
+  title: Education
+  info:
+    - degree: Computer Systems Engineering (Plan 98)
+      university: University of Seville
+      time: 2004 - 2009
+      details:
+
+experiences:
+  title: Work Experience
+  info:
+    - role: AI Platform Engineer
+      time: Oct'24 - Oct'25
+      company: Freepik
+      company_url: https://www.freepik.com
+      details: |
+        Integrated image and video generative model providers into Freepik's AI platform,
+        defining ingestion and validation workflows end-to-end. Developed, operated, and
+        scaled the request queueing system handling more than four million daily
+        inferences, focusing on reliability and throughput. Built services in Python
+        (FastAPI + Celery) with OpenResty and Kubernetes running on Google Cloud,
+        strengthening continuous integration pipelines to shorten delivery times and
+        improve platform observability.
+    - role: Generative AI Projects Lead
+      time: Feb'23 - Oct'24
+      company: Sngular People
+      company_url: https://www.sngular.com/
+      details: |
+        Technical lead for the team, designing and building initiatives that apply LLMs to NLP projects and conversational assistants within the AI unit.
+        Technologies:
+          - Langchain and Langsmith
+          - OpenAI
+          - Google Vertex
+          - Google Cloud Platform
+          - Python
+    - role: Software Engineer — FinTech Platform
+      time: Feb'22 - Jan'23
+      company: Sngular People
+      details: |
+        Developed a Big Data platform to manage real-time trading rules for stock buy and sell operations.
+        Technologies:
+          - OpenShift
+          - Django Admin
+          - PostgreSQL
+          - Cassandra
+          - GraphQL
+          - pySpark
+    - role: Site Reliability Engineer
+      time: Mar'21 - Feb'22
+      company: Virtualcave
+      company_url: https://virtualcave.io
+      details: |
+        Built a microservices ranking system driven by technical and business metrics. Designed and implemented an SLO management platform for microservices.
+        Technologies:
+          - Kubernetes
+          - Django Admin
+          - PostgreSQL
+          - Java Spring Boot
+          - Grafana
+    - role: Machine Learning Engineer
+      time: Sep'20 - Feb'21
+      company: APSL
+      company_url: https://apsl.net
+      details: |
+        Deployed the ingestion architecture for language corpora. Productized a conversational chatbot platform and created a user management system on Amazon Cognito.
+        Technologies:
+          - AWS Lambda Functions
+          - Google Cloud Platform
+          - Django Admin
+    - role: Machine Learning Engineer
+      time: Mar'19 - Aug'20
+      company: Bluekiri
+      details: |
+        Technical lead within the Machine Learning team, helping streamline the production lifecycle for ML models. Led analysis and design for new ML projects.
+        Technologies:
+          - Python
+          - Apache Airflow
+          - Google Cloud Platform
+          - Azure DevOps
+    - role: Backend Engineer
+      time: Sep'15 - Feb'19
+      company: 7ideas.com / roomdi.com
+      details: |
+        Developed the company's backend handling millions of hotel metasearch requests per hour (Trivago, Tripadvisor, GoogleHotelAds, etc.).
+        Acted as tech lead: troubleshooting, internal talks to upskill the team, analysis and design of new Big Data projects, and QA / CI/CD management.
+        Technologies:
+          - Python
+          - NodeJS / Javascript
+          - MongoDB
+          - Spark / Kafka
+    - role: Software Engineer
+      time: Mar'14 - Aug'15
+      company: Wellness Telecom
+      details: |
+        Built EU H2020 innovation factory projects: Big Data solutions to monitor networking assets.
+        Technologies:
+          - Python
+          - NodeJS / Javascript
+          - MongoDB
+          - Spark / Kafka
+    - role: Software Engineer
+      time: Feb'09 - Dec'11
+      company: Isotrol
+      details: |
+        Developed software for the regional ICT centers in Andalusia within the Advanced Management Center. Led the deployment of Open Source applications.
+        Owned Debian-based packaging distribution and engineered distributed applications in Python.
+        Technologies:
+          - Debian and Ubuntu Linux
+          - Python
+          - Bash scripting
+
+certifications:
+  title: Certifications
+  list:
+    - name: LPI 101
+      start: 2018
+      organization: Linux Professional Institute
+      details: |
+        Official Linux Professional Institute (LPI) training delivered by certified instructors with deep IT industry experience. Hands-on methodology focused on acquiring the knowledge and skills required to become certified professionals.
+
+skills:
+  title: Skills & Competencies
+  toolset:
+    - name: Python
+      level: 90%
+    - name: LLM tools
+      level: 60%
+    - name: Teamwork
+      level: 80%
+
+footer: >
+  Built with Jekyll & GitHub Pages using <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley Theme</a>

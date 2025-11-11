@@ -1,12 +1,15 @@
 ---
 layout: print
+lang: es
 permalink: /print
 ---
 
+{% assign active_lang = page.lang | default: site.default_lang | default: 'es' %}
+{% assign resume = site.data[active_lang] | default: site.data.es %}
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
+{% unless resume.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 

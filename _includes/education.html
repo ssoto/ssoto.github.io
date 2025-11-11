@@ -1,6 +1,8 @@
-{% assign education = site.data.data.education %}
+{% assign active_lang = page.lang | default: site.default_lang | default: 'es' %}
+{% assign resume = resume | default: site.data[active_lang] | default: site.data.es %}
+{% assign education = resume.education %}
 {% if education %}
-  {% if site.data.data.sidebar.education %}
+  {% if resume.sidebar.education %}
   <div class="education-container container-block">
 
     <h2 class="container-block-title">

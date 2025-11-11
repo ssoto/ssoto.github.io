@@ -6,7 +6,9 @@
 
 
 // define variable with front matter
-{% if site.data.data.sidebar.position == 'left' %}
+{% assign active_lang = site.default_lang | default: 'es' %}
+{% assign localized = site.data[active_lang] | default: site.data.es %}
+{% if localized.sidebar.position == 'left' %}
 $resume-order: 2;
 $sidebar-order: 1;
 {% else %}
