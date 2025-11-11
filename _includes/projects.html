@@ -1,4 +1,6 @@
-{% assign projects = site.data.data.projects %}
+{% assign active_lang = page.lang | default: site.default_lang | default: 'es' %}
+{% assign resume = resume | default: site.data[active_lang] | default: site.data.es %}
+{% assign projects = resume.projects %}
 {% if projects %}
 <section class="section projects-section">
 

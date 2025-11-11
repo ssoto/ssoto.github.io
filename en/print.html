@@ -1,7 +1,7 @@
 ---
-layout: default
-lang: es
-permalink: /
+layout: print
+lang: en
+permalink: /en/print
 ---
 
 {% assign active_lang = page.lang | default: site.default_lang | default: 'es' %}
@@ -15,13 +15,8 @@ permalink: /
 
 {% include experiences.html %}
 
-{% include certifications.html %}
-
 {% include projects.html %}
-
-{% include oss-contributions.html %}
 
 {% include publications.html %}
 
 {% include skills.html %}
-

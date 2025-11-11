@@ -1,4 +1,6 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% assign active_lang = page.lang | default: site.default_lang | default: 'es' %}
+{% assign resume = resume | default: site.data[active_lang] | default: site.data.es %}
+{% assign sidebar = resume.sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
@@ -16,6 +18,27 @@
     {% endif %}
 
   </div><!--//profile-container-->
+
+  {% if site.languages %}
+  <div class="language-switcher container-block">
+    <h2 class="container-block-title">
+      {{ sidebar.language_switcher_title | default: 'Language' }}
+    </h2>
+    <div class="language-pill-group" role="group" aria-label="{{ sidebar.language_switcher_title | default: 'Language' }}">
+      {% for lang in site.languages %}
+        {% assign code = lang[0] %}
+        {% assign info = lang[1] %}
+        {% assign label = info.label | default: code %}
+        {% assign url = info.baseurl | default: '/' %}
+        {% if code == active_lang %}
+        <span class="language-pill is-active" aria-current="true">{{ label }}</span>
+        {% else %}
+        <a class="language-pill" href="{{ url | relative_url }}">{{ label }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
 
   {% include contact.html %}
 
